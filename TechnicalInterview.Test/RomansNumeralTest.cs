@@ -18,7 +18,7 @@ namespace TechnicalInterview.Test
         public void Check_For_Negative_Value()
         {
             // Act
-            var result = RomansNumeral.ConvertToRomansNumeral(-6);
+            var result = RomansNumeral.ConvertToRomansNumeral(-8);
             //Assert
             Assert.IsTrue(result == "INVALID_INPUT");
         }
